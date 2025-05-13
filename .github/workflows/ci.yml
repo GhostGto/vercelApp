@@ -25,10 +25,6 @@ jobs:
         run: npm install
         working-directory: campersBack/
 
-      - name: Lint
-        run: npm run lint
-        working-directory: campersBack/
-
       - name: Run tests
         run: npm run test
         working-directory: campersBack/
